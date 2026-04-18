@@ -18,7 +18,7 @@ Miro
 Canva
 Databricks
 Microsoft excel
-SlidesGo
+Powerpoint
 
 
 
