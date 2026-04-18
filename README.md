@@ -17,7 +17,7 @@ Tools used
 Miro
 Canva
 Databricks
-Microsoft excel
+Microsoft Excel
 Powerpoint
 
 
