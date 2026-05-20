@@ -1,24 +1,63 @@
-The CEO of BrightTV aims to grow the company's subscription base for the current financial year. As a junior data analyst, l was tasked with analyzing viewership and user data to generate insights that can support the Customer Value Management team in achieving this objective. 
+BrightTV Viewership Analysis Project
+Problem Statement
 
-Overview of the Case Study
-This project analyzes brightTV viewership data to understand user behavior and identify opportunities to increase engagement and subscriptions. The case study focuses on examining viewing patterns, user activity and demographic differences to support data driven decision making. 
+BrightTV aims to grow its subscription base during the current financial year. To support this goal, the Customer Value Management team required insights into user viewing behavior, engagement trends, and demographic patterns. The challenge was to analyze viewership and user profile data to identify opportunities that could improve customer engagement, optimize content promotion strategies, and support subscription growth.
 
-Methodology
-The project followed a structure data pipeline:
-Data Understanding: Reviewing the Viewership and User Profile datasets to identify key variables such as UserID, watch duration, channel, age, gender and region. Data cleaning: Removed duplicates, handled missing values and ensured consistency in the data. Data Preparation: Joined datasets using UserID and converted time formats for accurate analysis. Data Analysis: Explored viewing trends such as peak hours, seasion duration and user engagement. Insights Generation: Identified patterns across demographics and usage behavior. Recommendations: Developed strategies to improve engagement based on findings. 
+Aim of the Project
 
-Key Insights
-Peak viewing occurrs during specific hours, indicating optimal times for content promotion. Certain regions show higher engagement compared to others. Younger users tend to have higher activity levels. some days show consistently low consumption, highlighting opportunities for targeted campaigns.
+The aim of this project was to analyze BrightTV’s viewership and user data in order to uncover behavioral patterns, identify engagement opportunities, and generate actionable insights that can support data-driven decision-making for increasing subscriptions and user retention.
 
-Summary of findings 
-The analysis revealed clear patterns in user behavior including when users are most active and which groups are more engaged. These insights can help BrightTV improve content strategy target the right audience and increase overall viewership.
+Objectives and Steps Taken to Solve the Aim
+1. Data Understanding
+Reviewed the Viewership and User Profile datasets.
+Identified key variables including:
+UserID
+Watch duration
+Channel information
+Age
+Gender
+Region
+2. Data Cleaning
+Removed duplicate records.
+Handled missing values.
+Ensured consistency across datasets and data formats.
+3. Data Preparation
+Joined datasets using UserID.
+Converted and standardized time-related fields for accurate analysis.
+Prepared the data for trend and engagement analysis.
+4. Data Analysis
+Analyzed viewing trends and user engagement patterns.
+Identified:
+Peak viewing hours
+Session duration trends
+Demographic engagement differences
+Regional activity levels
+Low-consumption periods
+5. Insights Generation
+Discovered patterns in user behavior and content consumption.
+Compared engagement across age groups, genders, and regions.
+Identified opportunities for targeted marketing and content promotion.
+6. Recommendations
+Suggested targeted campaigns during low-engagement periods.
+Recommended promoting content during peak viewing hours.
+Proposed audience-focused strategies based on demographic engagement patterns.
+Summary of Results
 
-Tools used 
-Miro
-Canva
-Databricks
-Microsoft Excel
-Powerpoint
+The analysis revealed clear user behavior trends that can help BrightTV improve customer engagement and support subscription growth. Key findings include:
+
+Peak viewing occurs during specific hours, making them ideal for content promotion.
+Certain regions demonstrate significantly higher engagement levels.
+Younger users show higher viewing activity and platform interaction.
+Some days consistently experience lower consumption, presenting opportunities for targeted campaigns and promotions.
+
+Overall, the project provided valuable insights that can assist BrightTV in improving content strategy, targeting the right audience segments, and enhancing overall viewership performance.
+
+Tools Used in the Case Study
+Planning: Miro
+Gantt Chart: Canva
+Data Processing and Analysis: Databricks
+Data Visualization: Microsoft Excel
+Final Presentation: PowerPoint
 
 
 
