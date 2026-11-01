@@ -1,63 +1,37 @@
 BrightTV Viewership Analysis Project
-Problem Statement
 
-BrightTV aims to grow its subscription base during the current financial year. To support this goal, the Customer Value Management team required insights into user viewing behavior, engagement trends, and demographic patterns. The challenge was to analyze viewership and user profile data to identify opportunities that could improve customer engagement, optimize content promotion strategies, and support subscription growth.
+1. Problem Statement
+- BrightTV aims to grow its subscription base during the current financial year.
+- The Customer Value Management team needs insights into viewing behavior, engagement trends, and demographic patterns.
+- The challenge is to analyze viewership and user profile data to identify opportunities to improve engagement, optimize content promotion, and support subscription growth.
 
-Aim of the Project
+2. Aim of the Project
+- To analyze BrightTV's viewership and user data to uncover behavioral patterns.
+- To identify engagement opportunities and gaps (peak vs low periods, retention).
+- To generate actionable, data-driven insights that support subscription growth and user retention.
 
-The aim of this project was to analyze BrightTV’s viewership and user data in order to uncover behavioral patterns, identify engagement opportunities, and generate actionable insights that can support data-driven decision-making for increasing subscriptions and user retention.
+3. Objectives and Steps Taken to Solve the Aim
+- Data Understanding: Reviewed Viewership and User Profile datasets; identified key variables - UserID, Duration_Min, Channel, Genre, Hour, Day, Age, Gender, Race, Province, TimeBucket.
+- Data Cleaning: Removed duplicates, handled missing values (Unknown gender/race/province), standardized time formats to SA Time.
+- Data Preparation: Joined datasets on UserID; created Hour, DayOfWeek, TimeBucket, AgeBucket, SessionBucket; calculated Duration in Minutes.
+- Data Analysis: Built 4 PivotTables + PivotCharts in Data Visuals tab (Time of Day, Day of Week, Genre Mix, Channel Performance); built User Profile, Retention, Demographics, and Channel x TimeBucket matrices.
+- Insights Generation: Found 4,386 viewers / 9,995 sessions / 91,343 mins; Male 88%, Young Adult 69%, Sport 54%, ICC Cricket 24,727 top, Afternoon 38,284 peak.
+- Recommendations: Promote premium content in Afternoon/Saturday peak; run targeted campaigns at Night/Monday low; focus on Gauteng/Western Cape segments; address 51.3% one-and-done retention.
 
-Objectives and Steps Taken to Solve the Aim
-1. Data Understanding
-Reviewed the Viewership and User Profile datasets.
-Identified key variables including:
-UserID
-Watch duration
-Channel information
-Age
-Gender
-Region
-2. Data Cleaning
-Removed duplicate records.
-Handled missing values.
-Ensured consistency across datasets and data formats.
-3. Data Preparation
-Joined datasets using UserID.
-Converted and standardized time-related fields for accurate analysis.
-Prepared the data for trend and engagement analysis.
-4. Data Analysis
-Analyzed viewing trends and user engagement patterns.
-Identified:
-Peak viewing hours
-Session duration trends
-Demographic engagement differences
-Regional activity levels
-Low-consumption periods
-5. Insights Generation
-Discovered patterns in user behavior and content consumption.
-Compared engagement across age groups, genders, and regions.
-Identified opportunities for targeted marketing and content promotion.
-6. Recommendations
-Suggested targeted campaigns during low-engagement periods.
-Recommended promoting content during peak viewing hours.
-Proposed audience-focused strategies based on demographic engagement patterns.
-Summary of Results
+4. Summary of Results
+- Peak viewing occurs during Afternoon (38,284 mins) and Saturday (17,761 mins), ideal for content promotion.
+- Gauteng (33,216 mins) and Western Cape (18,019 mins) show highest regional engagement.
+- Young Adult users drive 69% of total viewing (62,915 mins).
+- Low periods - Night (2,118 mins) and Monday (6,894 mins) - present opportunities for targeted campaigns.
+- Sport dominates at 54% (48,958 mins), indicating need for diversification in Kids and Entertainment.
+- 51.3% retention problem - majority watch once and do not return.
 
-The analysis revealed clear user behavior trends that can help BrightTV improve customer engagement and support subscription growth. Key findings include:
-
-Peak viewing occurs during specific hours, making them ideal for content promotion.
-Certain regions demonstrate significantly higher engagement levels.
-Younger users show higher viewing activity and platform interaction.
-Some days consistently experience lower consumption, presenting opportunities for targeted campaigns and promotions.
-
-Overall, the project provided valuable insights that can assist BrightTV in improving content strategy, targeting the right audience segments, and enhancing overall viewership performance.
-
-Tools Used in the Case Study
-Planning: Miro
-Gantt Chart: Canva
-Data Processing and Analysis: Databricks
-Data Visualization: Microsoft Excel
-Final Presentation: PowerPoint
+5. Tools Used
+- Miro
+- Canva
+- Databricks
+- Microsoft Excel
+- PowerPoint
 
 
 
